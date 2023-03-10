@@ -1,0 +1,8 @@
+FROM denoland/deno:alpine-1.31.1
+EXPOSE 3001
+RUN mkdir -p /home/app
+COPY . /home/app
+WORKDIR /home/app
+RUN deno cache src/deps.ts
+RUN deno fmt .
+CMD ["task", "dev"]
