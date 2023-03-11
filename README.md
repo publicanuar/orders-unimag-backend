@@ -1,6 +1,6 @@
 # orders-unimag-backend
 
-Development of an apirest for the fullstack technical test of the Universidad Del Magdalena.
+Development of an API REST for the fullstack technical test of the Universidad Del Magdalena.
 
 ## Working with Docker Engine and docker-compose
 
